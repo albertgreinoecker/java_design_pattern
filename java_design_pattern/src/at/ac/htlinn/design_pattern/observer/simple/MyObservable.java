@@ -1,4 +1,4 @@
-package at.ac.htlinn.design_pattern.simple;
+package at.ac.htlinn.design_pattern.observer.simple;
 
 import java.util.Observable;
 
@@ -18,7 +18,6 @@ public class MyObservable extends Observable {
 			notifyObservers(i + " call");
 			Thread.sleep(1000);
 		}
-		
 	}
 	
 	@Override

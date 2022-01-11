@@ -1,4 +1,4 @@
-package at.ac.htlinn.design_pattern.simple;
+package at.ac.htlinn.design_pattern.observer.simple;
 
 import java.util.Observable;
 import java.util.Observer;

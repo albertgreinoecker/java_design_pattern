@@ -1,4 +1,4 @@
-package at.ac.htlinn.design_pattern.simple;
+package at.ac.htlinn.design_pattern.observer.simple;
 
 
 public class MyRunner {
