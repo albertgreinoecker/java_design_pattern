@@ -4,7 +4,7 @@ public class Article {
 
 	private String articleId;
 	private String name;
-	private int price;
+	private double price;
 
 	public Article(String articleId, String name, int cost) {
 		this.articleId = articleId;
@@ -16,7 +16,7 @@ public class Article {
 		return articleId;
 	}
 
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
@@ -36,11 +36,7 @@ public class Article {
 		this.name = name;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
-
-
-	
-
 }
