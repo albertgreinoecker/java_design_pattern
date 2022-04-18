@@ -38,7 +38,7 @@ public class MyStack {
 			s1.pop();	
 		} catch (EmptyStackException e)
 		{
-			System.out.println("Kein Element mehr am Stack!!!");
+			System.out.println("No Element on stack!!!");
 		}
 	}
 
