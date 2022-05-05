@@ -2,7 +2,7 @@ package at.ac.htlinn.design_pattern.factory.kitchen;
 
 public class MealFactory 
 {
-	public static Meal erzeugen(String name)
+	public static Meal prepare(String name)
 	{
 		switch (name)
 		{
