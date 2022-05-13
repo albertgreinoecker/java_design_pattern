@@ -8,8 +8,7 @@ public class CDirectory implements FileSystemObject {
 
 	private String name;
 	private Date created;
-	
-	ArrayList<FileSystemObject> fsos = new ArrayList<FileSystemObject>();
+	private ArrayList<FileSystemObject> fsos = new ArrayList<FileSystemObject>();
 	
 	public CDirectory(String name) {
 		this.name = name;
