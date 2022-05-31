@@ -8,5 +8,4 @@ public class BurgerBrater {
 		System.out.println("Zutaten zum Burger: " + komplett.getBeschreibung());
 		System.out.println("Preis: " + komplett.getPreis());
 	}
-
 }

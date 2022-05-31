@@ -11,5 +11,4 @@ public class BroetchenBoden implements Burger {
 	public String getBeschreibung() {
 		return "Broetchenboden";
 	}
-
 }
