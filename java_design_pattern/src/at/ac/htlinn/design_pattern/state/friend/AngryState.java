@@ -23,7 +23,7 @@ public class AngryState implements PersonState {
 
 	@Override
 	public void annoy() {
-		// TODO Auto-generated method stub
+		System.out.println("GRRR!! - still angry");
 
 	}
 
