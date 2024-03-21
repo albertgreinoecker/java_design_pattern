@@ -17,7 +17,7 @@ public class VorCmd implements CommandInterface {
 
 	@Override
 	public void rueckgaengig() {
-		f.rechts(meter);
+		f.vor(-meter);
 	}
 
 }
