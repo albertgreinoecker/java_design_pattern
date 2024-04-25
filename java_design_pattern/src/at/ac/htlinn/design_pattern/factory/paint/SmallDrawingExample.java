@@ -9,7 +9,11 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
-
+/**
+ * @author albert
+ * Diese Klasse dient nur als Basis für die Aufgabe. Hier sollen die Design pattern
+ * Factory und Composite eingebaut werden
+ */
 public class SmallDrawingExample extends JFrame implements ActionListener{
 
 	Container container;
